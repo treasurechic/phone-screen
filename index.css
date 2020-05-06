@@ -1,0 +1,52 @@
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    color: #484848;
+    background-color: transparent;
+    opacity: .6;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #484848;
+    background-color: transparent;
+    opacity: 1;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+}
+.profile img{
+    border-radius: 50%;
+}
+
+.profile-bg{
+    width: 60px;
+    height: 60px;
+}
+.profile-bg img{
+    border-radius: 50%;
+}
+.profile-bg-double{
+    width:40px;
+    height: 40px;
+    position: relative;
+}
+.profile-double{
+    position: absolute;
+    left: 28px;
+}
+.btn-outline{
+    color: #484848;
+    background-color: transparent;
+    border-color: #484848;
+    padding: .6rem 3rem;
+}
+#pills-Text i{
+    -webkit-text-stroke: 1px #484848;
+    -webkit-text-fill-color: white;
+    font-size: 28px;
+}
+#pills-Text .label{
+    color: #484848;
+}
+#pills-Text .detail{
+    color: #bcbcbc;
+    font-size: 12px;
+}
